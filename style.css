@@ -1,0 +1,90 @@
+/*
+Theme Name: Festival
+Theme URI: http://example.com/
+Description: Thème enfant du thème Twenty Twelve
+Author: Vincent BLEE
+Author URI: http://example.com/about/
+Template: twentytwelve
+Version: 0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* Couleur des menus */
+#menu-lgbt li { margin: 0; padding: 0 5px; width: 140px; text-align: center;}
+
+
+	.fg-rouge {
+		background-color: #2F4869;
+	}
+
+	.fg-rouge a {
+		color: #EFEFEF !important;
+	}
+
+	.fg-orange {
+		background-color: #FF7F00;
+	}
+
+	.fg-orange a {
+		color: #EFEFEF !important;
+	}
+
+	.fg-jaune {
+		background-color: #FFFE03;
+	}
+
+	.fg-jaune a {
+		color: #444444 !important;
+	}
+
+	.fg-vert {
+		background-color: #007943;
+	}
+
+	.fg-vert a {
+		color: #EFEFEF !important;
+	}
+
+	.fg-bleu {
+		background-color: #4041FE;
+	}
+
+	.fg-bleu a {
+		color: #EFEFEF !important;
+	}
+
+	.fg-violet {
+		background-color: #CD009B;
+	}
+
+	.fg-violet a {
+		color: #EFEFEF !important;
+	}
+	/* Fin du traitement des couleurs menus */
+
+	/* Début du traitement du Slideshow */
+	.slideshow {
+		width:100%;
+		min-height: 420px !important;
+	}
+	.slideshow img {
+		width:100%;
+		height:auto;
+	}
+	.rslides_tabs  {
+    height: 30px;
+    margin-top: 15px;
+    width: 45%;
+	}
+	.rslides_tabs li {
+		display: inline;
+		padding:5px;
+		border:1px solid grey;
+	}
+	.rslides_tabs img {
+		width:100%;
+	}
+	.rslides_nav {
+		clear: both;
+	}
